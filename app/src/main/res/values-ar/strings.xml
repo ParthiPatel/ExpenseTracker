@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تعقب المصاريف /Expense Tracker</string>
+    <string name="expense_tracker">تعقب المصاريف /Expense Tracker</string>
+    <string name="hello_world">Hello World...!/مرحبا بالعالم...!</string>
+</resources>
