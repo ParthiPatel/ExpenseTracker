@@ -18,23 +18,6 @@ import java.util.*
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        val locale = Locale("ar")
-        Locale.setDefault(locale)
-        //  val config = baseContext.resources.configuration
-        /*config.locale = locale
-        baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)*/
-
-        val resources: Resources = resources
-        val configuration: Configuration = resources.configuration
-        val displayMetrics: DisplayMetrics = resources.displayMetrics
-        configuration.setLocale(locale)
-        /*if (Build.VERSION.SDK_INT > Build.VERSION_CODES.N) {
-            applicationContext.createConfigurationContext(configuration)
-        } else {*/
-            resources.updateConfiguration(configuration, displayMetrics)
-        //}
-
         setContentView(R.layout.activity_splash_screen)
 
 
